@@ -3,7 +3,7 @@
 [![Licence](https://img.shields.io/npm/l/react)](https://github.com/andersonpereiradossantos/dotcore-api-minimal/blob/master/LICENSE) 
 
 Welcome to our Tic-Tac-Toe game project! This project features a classic game of Tic-Tac-Toe implemented in JavaScript, enhanced with an artificial intelligence powered by the MiniMax algorithm.
-![MiniMax AI Tic-Tac-Toe Game Presentation](https://github.com/andersonpereiradossantos/tic-tac-toe-ai-minimax/blob/main/ttt.png)
+![MiniMax AI Tic-Tac-Toe Game Presentation](https://github.com/dudigoo/tic-tac-toe-ai-minimax/blob/main/ttt.png)
 
 ## Features
 - Play against a challenging AI opponent that utilizes the MiniMax algorithm to make strategic decisions.
