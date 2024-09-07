@@ -47,12 +47,12 @@ const checkGameEnd = () => {
 	let result = '';
 	let line = '';
 	if (checkWinner(game, humanPlayer)) {
-		result = `Vencedor ${humanPlayer}`;
+		result = `Winner ${humanPlayer}`;
 		line = classLine;
 		document.querySelector("#line").className = classLine;
 	} else if (checkWinner(game, computerPlayer)) {
 		line = classLine;
-		result = `Vencedor ${computerPlayer}`;
+		result = `Winner ${computerPlayer}`;
 	} else if (emptyCells(game).length === 0) {
 		result = 'Draw!';
 	}
