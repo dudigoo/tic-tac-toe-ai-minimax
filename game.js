@@ -95,12 +95,10 @@ document.querySelector('#reset').addEventListener('click', () => {
 })
 
 const selectPlayer = (player) => {
+	humanPlayer = 'X';
+	computerPlayer = 'O';
 	if (player == computerPlayer) {
-		humanPlayer = 'O';
-		computerPlayer = 'X';
-	} else {
-		humanPlayer = 'X';
-		computerPlayer = 'O';
+		computer();
 	}
 };
 
