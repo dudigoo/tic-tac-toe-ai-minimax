@@ -54,7 +54,7 @@ const checkGameEnd = () => {
 		line = classLine;
 		result = `Winner ${computerPlayer}`;
 	} else if (emptyCells(game).length === 0) {
-		result = 'Drssaw '+'<b>kuk</b>';
+		result = 'Draw '+'<img src="oren.png" width="100" height="200">';
 	}
 	document.querySelector("#line").className = line;
 	document.querySelector('#result').innerHTML = result;
