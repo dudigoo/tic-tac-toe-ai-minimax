@@ -73,10 +73,10 @@ const mark = (el, player) => {
         throw new Error('Já foi marcado ou o jogo acabou!');
     }
 };
-
+/*
 document.querySelector('#selectX').addEventListener('click', () => {
 	selectPlayer(humanPlayer);
-});
+}); */
 
 document.querySelector('#selectO').addEventListener('click', () => {
 	selectPlayer(computerPlayer);
@@ -146,12 +146,12 @@ const findPosition = (array, value) => {
 const showButtons = (show = true) => {
 	if (show) {
 		document.querySelector('#selectO').classList.remove('d-none');
-		document.querySelector('#selectX').classList.remove('d-none');
+		/* document.querySelector('#selectX').classList.remove('d-none'); */
 		return;
 	}
 
 	document.querySelector('#selectO').classList.add('d-none');
-	document.querySelector('#selectX').classList.add('d-none');
+	/* document.querySelector('#selectX').classList.add('d-none'); */
 }
 
 const miniMax = (gameCurrent, player, depth) => {
